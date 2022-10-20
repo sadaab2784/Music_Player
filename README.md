@@ -6,9 +6,11 @@ https://sadaab2784.github.io/Music_Player/
 
 Screenshots of the music player :-
 
-![Screenshot (60)](https://user-images.githubusercontent.com/106314415/196897297-90fc8dce-9991-464e-adb3-175ef6890009.png)
+![Music-Player (1)](https://user-images.githubusercontent.com/106314415/196902465-89b265ba-78a2-4070-8e4a-e5a4d129aaa9.png)
+
 
 <br>
 
-![Screenshot (61)](https://user-images.githubusercontent.com/106314415/196897640-cee0be59-4e29-4bee-9a12-b89adac2b1d4.png)
+![Music-Player](https://user-images.githubusercontent.com/106314415/196902593-7bcc2713-580e-4289-8ba3-5d6dded05127.png)
+
 
