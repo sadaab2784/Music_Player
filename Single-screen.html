@@ -1,927 +1,760 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music Player</title>
-    <link rel="stylesheet" href="Single_screen_style.css">
-    <link rel="stylesheet" href="secondary_responsive.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-</head>
-<body>
-   
+    <link rel="stylesheet" href="Single_screen_style.css" />
+    <link rel="stylesheet" href="secondary_responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <nav class="navigation-bar">
-        <div class="title">
-            <div class="logo">
-                <img src="image/ninja3.jfif">
-            </div>
-            <div class="logo-name">
-                <h6>Alone</h6>
-                <h1>Studio</h1>
-            </div>
-
+      <div class="title">
+        <div class="logo">
+          <img src="image/ninja3.jfif" />
         </div>
-         
-        <!-- For favourite Text -->
-        <div class="favourite">
-            <h4>
-                Favourites
-            </h4>
+        <div class="logo-name">
+          <h6>Alone</h6>
+          <h1>Studio</h1>
         </div>
+      </div>
 
-        <!-- For Search Bar -->
-        <div class="search-bar">
-            <div>
-                <i class="far fa-search search-icon"></i>
-            </div>
-            <input type="text" name="search" placeholder="Search">
-            <div>
-                <i class="fas fa-microphone mic-icon"></i>
-            </div>
+      <!-- For favourite Text -->
+      <div class="favourite">
+        <h4>Favourites</h4>
+      </div>
+
+      <!-- For Search Bar -->
+      <div class="search-bar">
+        <div>
+          <i class="far fa-search search-icon"></i>
         </div>
-
-        <!-- For notification bell Icon -->
-        <div class="notification-bell">
-            <i class="fas fa-bell"></i>
+        <input type="text" name="search" placeholder="Search" />
+        <div>
+          <i class="fas fa-microphone mic-icon"></i>
         </div>
+      </div>
 
-        <!-- For Profile Picture  -->
-        <div class="profile-picture">
-            <img src="image/mypic.jpg">
+      <!-- For notification bell Icon -->
+      <div class="notification-bell">
+        <i class="fas fa-bell"></i>
+      </div>
 
-        </div>
+      <!-- For Profile Picture  -->
+      <div class="profile-picture">
+        <img src="image/mypic.jpg" />
+      </div>
     </nav>
 
     <!-- Main Section   -->
     <main>
+      <!-- Aside Section - 1  -->
+      <aside class="aside section-1">
+        <!-- For jumbotron  -->
+        <div class="jumbotron">
+          <div class="jumbotron-image">
+            <!-- Image are added in Css  -->
+          </div>
 
-    <!-- Aside Section - 1  -->
-          <aside class="aside section-1">
-              <!-- For jumbotron  -->
-              <div class="jumbotron">
-                  <div class="jumbotron-image">
-                      <!-- Image are added in Css  -->
-                  </div>
+          <!-- jumbotron Details  -->
+          <div class="jumbotron-detail">
+            <div class="descriptive-part">
+              <div class="song-name-main">
+                <h1>ColdPlay</h1>
+              </div>
+              <div class="followers">30M Followers</div>
+              <p class="author">British Band</p>
 
-                  <!-- jumbotron Details  -->
-                  <div class="jumbotron-detail">
-                      <div class="descriptive-part">
-                          <div class="song-name-main">
-                              <h1> ColdPlay </h1>
-                          </div>
-                          <div class="followers">
-                              30M Followers
-                          </div>
-                          <p class="author">
-                              British Band
-                          </p>
+              <!-- Description for Author  -->
+              <p class="desc">
+                Coldplay are a British rock band formed in London in 1996.
+                Vocalist, rhythm guitarist and pianist Chris Martin, lead
+                guitarist Jonny Buckland, bassist Guy Berryman, and drummer Will
+                Champion met at University College London and began playing
+                music together from 1996 to 1998, first calling themselves
+                Pectoralz and then Starfish before finally changing their name
+                to Coldplay
+              </p>
+            </div>
 
-                          <!-- Description for Author  -->
-                          <p class="desc">
-                            Coldplay are a British rock band formed in London in 1996. Vocalist, rhythm guitarist and pianist Chris Martin, lead guitarist Jonny Buckland, bassist Guy Berryman, and drummer Will Champion met at University College London and began playing music together from 1996 to 1998, first calling themselves Pectoralz and then Starfish before finally changing their name to Coldplay
-                          </p>
-                      </div>
-
-                      <!-- Action Part  -->
-                      <div class="action-part">
-                          <!-- For Action Button  -->
-                          <div class="btns">
-                              <button> Play All </button>
-                              <button> Follow </button>
-                          </div>
-
-                          <p>247 Tracks | 128 Albums </p>
-                      </div>
-                  </div>
+            <!-- Action Part  -->
+            <div class="action-part">
+              <!-- For Action Button  -->
+              <div class="btns">
+                <button>Play All</button>
+                <button>Follow</button>
               </div>
 
-              <!-- For Playlist Part  -->
-              <div class="playlist-items">
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            01
-                        </div>
-                        <div>
-                            <img src="image/english/english5.webp">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                Alone
-                            </h5>
-                            <p>
-                                Alan Walker
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        3:14
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            02
-                        </div>
-                        <div>
-                            <img src="image/english/english1.jpg">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                You
-                            </h5>
-                            <p>
-                                Armaan Malik
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        3:44
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            03
-                        </div>
-                        <div>
-                            <img src="image/english/english2.jpg">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                Don't Wake Me Up
-                            </h5>
-                            <p>
-                                Jones
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        2:55
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            04
-                        </div>
-                        <div>
-                            <img src="image/english/english4.jpg">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                All You Need Is Love
-                            </h5>
-                            <p>
-                               katy Perry
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        3:37
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            05
-                        </div>
-                        <div>
-                            <img src="image/english/english6.webp">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                Shivers
-                            </h5>
-                            <p>
-                                Post Malone
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        3:27
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            06
-                        </div>
-                        <div>
-                            <img src="image/english/english4.jpg">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                All You Need Is Love
-                            </h5>
-                            <p>
-                                Katy Perry
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        4:31
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            07
-                        </div>
-                        <div>
-                            <img src="image/english/english1.jpg">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                You
-                            </h5>
-                            <p>
-                                Armaan Malik
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        3:28
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            08
-                        </div>
-                        <div>
-                            <img src="image/english/english2.jpg">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                Don't Wake Me Up
-                            </h5>
-                            <p>
-                                Jones
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        3:48
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            09
-                        </div>
-                        <div>
-                            <img src="image/english/english3.jpg">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                Moth To A Flames
-                            </h5>
-                            <p>
-                                Swedish House Mafia
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        3:20
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            10
-                        </div>
-                        <div>
-                            <img src="image/english/english4.jpg">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                All You Need IS Love
-                            </h5>
-                            <p>
-                                Katy Perry
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        4:10
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            11
-                        </div>
-                        <div>
-                            <img src="image/english/english5.webp">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                Alone
-                            </h5>
-                            <p>
-                                Alan Walker
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        4:00
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- playlist item -->
-                <div class="playlist-item">
-                    <div class="left">
-                        <div>
-                            12
-                        </div>
-                        <div>
-                            <img src="image/english/english6.webp">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h5>
-                                Shivers
-                            </h5>
-                            <p>
-                                Weeknd
-                            </p>
-                        </div>
-                    </div>
-                    <div class="center">
-                        3:31
-                    </div>
-                    <div class="right">
-                        <div>
-                            <i class="far fa-heart"></i>
-                        </div>
-                        <div>
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                </div>
+              <p>247 Tracks | 128 Albums</p>
             </div>
-        </aside>
+          </div>
+        </div>
 
-        <label for="more"><i class="fas fa-angle-double-left"></i>More</label>
-        <!-- this is that more button -->
-        <!-- and this is the check box. this will always be hidden -->
-        <!-- check the stylesheet_main.css when the label is clicked, this checkbox will be checked -->
-        <!-- which will invoke the aside section 2 on lower resolutions -->
-        <input type="checkbox" id="more">
-        <!-- </div> -->
-        <aside class="aside section-2">
-            <!-- similar class will be applicable to both similar artists and recently played -->
-            <div class="similar">
-                <!-- section heading, which also contains the view all button -->
-                <div class="section-heading">
-                    <h1>Similar Artists</h1>
-                    <div class="view-all-button">
-                        View All
-                    </div>
+        <!-- For Playlist Part  -->
+        <div class="playlist-items">
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>01</div>
+              <div>
+                <img src="image/english/english5.webp" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
                 </div>
-                <!-- list is the container for the contents of similar artists -->
-                <div class="list">
-                    <!-- item -->
-                    <div class="list-item">
-                        <div>
-                            <img src="image/popular artist/image1.jfif">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div style="position: absolute; left:120px;">
-                            <h5>
-                                Alone
-                            </h5>
-                            <p class="author-name">
-                                Justin Beiber
-                            </p>
-                        </div>
-                        <div class="extra">
-                            <div>
-                                <i class="fas fa-ellipsis-h"></i>
-                            </div>
-                            <p class="author-name">
-                                2:14
-                            </p>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="list-item">
-                        <div>
-                            <img src="image/popular artist/image2.jfif">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div style="position: absolute; left:120px;">
-                            <h5>
-                                All You Need Is Love
-                            </h5>
-                            <p class="author-name">
-                                Zyan Malik
-                            </p>
-                        </div>
-                        <div class="extra">
-                            <div>
-                                <i class="fas fa-ellipsis-h"></i>
-                            </div>
-                            <p class="author-name">
-                                4:00
-                            </p>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="list-item">
-                        <div>
-                            <img src="image/popular artist/image6.jfif">
-                            <div class="play-btn">
-                                <i class="fas fa-play"></i>
-                            </div>
-                        </div>
-                        <div style="position: absolute; left:120px;">
-                            <h5>
-                                WAP
-                            </h5>
-                            <p class="author-name">
-                                Badshah
-                            </p>
-                        </div>
-                        <div class="extra">
-                            <div>
-                                <i class="fas fa-ellipsis-h"></i>
-                            </div>
-                            <p class="author-name">
-                                4:44
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <!-- recently played section -->
-                <div class="similar">
-                    <!-- section headings, which also contains the view all button -->
-                    <div class="section-heading">
-                        <h1>Recently Played</h1>
-                        <div class="view-all-button">
-                            View All
-                        </div>
-                    </div>
-                    <!-- again list is a container for all the contents of recently played section -->
-                    <div class="list">
-                        <!-- item -->
-                        <div class="playlist-item">
-                            <div class="left">
-                                <div>
-                                    01
-                                </div>
-                                <div>
-                                    <img src="image/english/english4.jpg">
-                                    <div class="play-btn">
-                                        <i class="fas fa-play"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5>
-                                        All You Need Is Love
-                                    </h5>
-                                    <p>
-                                        Katy Perry
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div>
-                                    <i class="far fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- item -->
-                        <div class="playlist-item">
-                            <div class="left">
-                                <div>
-                                    02
-                                </div>
-                                <div>
-                                    <img src="image/english/english5.webp">
-                                    <div class="play-btn">
-                                        <i class="fas fa-play"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5>
-                                        Alone
-                                    </h5>
-                                    <p>
-                                        Justin Bieber
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div>
-                                    <i class="far fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- item -->
-                        <div class="playlist-item">
-                            <div class="left">
-                                <div>
-                                    03
-                                </div>
-                                <div>
-                                    <img src="image/english/english6.webp">
-                                    <div class="play-btn">
-                                        <i class="fas fa-play"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5>
-                                        ILY
-                                    </h5>
-                                    <p>
-                                        Surf Mesa
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div>
-                                    <i class="far fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- item -->
-                        <div class="playlist-item">
-                            <div class="left">
-                                <div>
-                                    04
-                                </div>
-                                <div>
-                                    <img src="image/english/english1.jpg">
-                                    <div class="play-btn">
-                                        <i class="fas fa-play"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5>
-                                        You
-                                    </h5>
-                                    <p>
-                                        Armaan Malik
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div>
-                                    <i class="far fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- item -->
-                        <div class="playlist-item">
-                            <div class="left">
-                                <div>
-                                    05
-                                </div>
-                                <div>
-                                    <img src="image/english/english2.jpg">
-                                    <div class="play-btn">
-                                        <i class="fas fa-play"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5>
-                                        Don't Wake Me Up
-                                    </h5>
-                                    <p>
-                                        Katy Perry
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div>
-                                    <i class="far fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- item -->
-                        <div class="playlist-item">
-                            <div class="left">
-                                <div>
-                                    06
-                                </div>
-                                <div>
-                                    <img src="image/english/english3.jpg">
-                                    <div class="play-btn">
-                                        <i class="fas fa-play"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5>
-                                        Alone
-                                    </h5>
-                                    <p>
-                                        Justin Bieber
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div>
-                                    <i class="far fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- item -->
-                        <div class="playlist-item">
-                            <div class="left">
-                                <div>
-                                    07
-                                </div>
-                                <div>
-                                    <img src="image/english/english4.jpg">
-                                    <div class="play-btn">
-                                        <i class="fas fa-play"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5>
-                                        Baarish
-                                    </h5>
-                                    <p>
-                                        Half Girlfriend
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div>
-                                    <i class="far fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- item -->
-                        <div class="playlist-item">
-                            <div class="left">
-                                <div>
-                                    08
-                                </div>
-                                <div>
-                                    <img src="image/english/english5.webp">
-                                    <div class="play-btn">
-                                        <i class="fas fa-play"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5>
-                                        Gulliyon
-                                    </h5>
-                                    <p>
-                                        Ek Villan
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div>
-                                    <i class="far fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- item -->
-                        <div class="playlist-item">
-                            <div class="left">
-                                <div>
-                                    09
-                                </div>
-                                <div>
-                                    <img src="image/english/english6.webp">
-                                    <div class="play-btn">
-                                        <i class="fas fa-play"></i>
-                                    </div>
-                                </div>
-                                <div>
-                                    <h5>
-                                        All-is-well
-                                    </h5>
-                                    <p>
-                                        3idiots
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="right">
-                                <div>
-                                    <i class="far fa-heart"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
+              <div>
+                <h5>Alone</h5>
+                <p>Alan Walker</p>
+              </div>
             </div>
-        </aside>
-   </main>
+            <div class="center">3:14</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>02</div>
+              <div>
+                <img src="image/english/english1.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>You</h5>
+                <p>Armaan Malik</p>
+              </div>
+            </div>
+            <div class="center">3:44</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>03</div>
+              <div>
+                <img src="image/english/english2.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Don't Wake Me Up</h5>
+                <p>Jones</p>
+              </div>
+            </div>
+            <div class="center">2:55</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>04</div>
+              <div>
+                <img src="image/english/english4.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>All You Need Is Love</h5>
+                <p>katy Perry</p>
+              </div>
+            </div>
+            <div class="center">3:37</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>05</div>
+              <div>
+                <img src="image/english/english6.webp" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Shivers</h5>
+                <p>Post Malone</p>
+              </div>
+            </div>
+            <div class="center">3:27</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>06</div>
+              <div>
+                <img src="image/english/english4.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>All You Need Is Love</h5>
+                <p>Katy Perry</p>
+              </div>
+            </div>
+            <div class="center">4:31</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>07</div>
+              <div>
+                <img src="image/english/english1.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>You</h5>
+                <p>Armaan Malik</p>
+              </div>
+            </div>
+            <div class="center">3:28</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>08</div>
+              <div>
+                <img src="image/english/english2.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Don't Wake Me Up</h5>
+                <p>Jones</p>
+              </div>
+            </div>
+            <div class="center">3:48</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>09</div>
+              <div>
+                <img src="image/english/english3.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Moth To A Flames</h5>
+                <p>Swedish House Mafia</p>
+              </div>
+            </div>
+            <div class="center">3:20</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>10</div>
+              <div>
+                <img src="image/english/english4.jpg" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>All You Need IS Love</h5>
+                <p>Katy Perry</p>
+              </div>
+            </div>
+            <div class="center">4:10</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>11</div>
+              <div>
+                <img src="image/english/english5.webp" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Alone</h5>
+                <p>Alan Walker</p>
+              </div>
+            </div>
+            <div class="center">4:00</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          <!-- playlist item -->
+          <div class="playlist-item">
+            <div class="left">
+              <div>12</div>
+              <div>
+                <img src="image/english/english6.webp" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div>
+                <h5>Shivers</h5>
+                <p>Weeknd</p>
+              </div>
+            </div>
+            <div class="center">3:31</div>
+            <div class="right">
+              <div>
+                <i class="far fa-heart"></i>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
 
-   <footer>
-    <div class="active-song-description">
+      <label for="more"><i class="fas fa-angle-double-left"></i>More</label>
+      <!-- this is that more button -->
+      <!-- and this is the check box. this will always be hidden -->
+      <!-- check the stylesheet_main.css when the label is clicked, this checkbox will be checked -->
+      <!-- which will invoke the aside section 2 on lower resolutions -->
+      <input type="checkbox" id="more" />
+      <!-- </div> -->
+      <aside class="aside section-2">
+        <!-- similar class will be applicable to both similar artists and recently played -->
+        <div class="similar">
+          <!-- section heading, which also contains the view all button -->
+          <div class="section-heading">
+            <h1>Similar Artists</h1>
+            <div class="view-all-button">View All</div>
+          </div>
+          <!-- list is the container for the contents of similar artists -->
+          <div class="list">
+            <!-- item -->
+            <div class="list-item">
+              <div>
+                <img src="image/popular artist/image1.jfif" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px">
+                <h5>Alone</h5>
+                <p class="author-name">Justin Beiber</p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">2:14</p>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="list-item">
+              <div>
+                <img src="image/popular artist/image2.jfif" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px">
+                <h5>All You Need Is Love</h5>
+                <p class="author-name">Zyan Malik</p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">4:00</p>
+              </div>
+            </div>
+            <!-- item -->
+            <div class="list-item">
+              <div>
+                <img src="image/popular artist/image6.jfif" />
+                <div class="play-btn">
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+              <div style="position: absolute; left: 120px">
+                <h5>WAP</h5>
+                <p class="author-name">Badshah</p>
+              </div>
+              <div class="extra">
+                <div>
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <p class="author-name">4:44</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- recently played section -->
+          <div class="similar">
+            <!-- section headings, which also contains the view all button -->
+            <div class="section-heading">
+              <h1>Recently Played</h1>
+              <div class="view-all-button">View All</div>
+            </div>
+            <!-- again list is a container for all the contents of recently played section -->
+            <div class="list">
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>01</div>
+                  <div>
+                    <img src="image/english/english4.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>All You Need Is Love</h5>
+                    <p>Katy Perry</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>02</div>
+                  <div>
+                    <img src="image/english/english5.webp" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Alone</h5>
+                    <p>Justin Bieber</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>03</div>
+                  <div>
+                    <img src="image/english/english6.webp" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>ILY</h5>
+                    <p>Surf Mesa</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>04</div>
+                  <div>
+                    <img src="image/english/english1.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>You</h5>
+                    <p>Armaan Malik</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>05</div>
+                  <div>
+                    <img src="image/english/english2.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Don't Wake Me Up</h5>
+                    <p>Katy Perry</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>06</div>
+                  <div>
+                    <img src="image/english/english3.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Alone</h5>
+                    <p>Justin Bieber</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>07</div>
+                  <div>
+                    <img src="image/english/english4.jpg" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Baarish</h5>
+                    <p>Half Girlfriend</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>08</div>
+                  <div>
+                    <img src="image/english/english5.webp" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>Gulliyon</h5>
+                    <p>Ek Villan</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+              <div class="playlist-item">
+                <div class="left">
+                  <div>09</div>
+                  <div>
+                    <img src="image/english/english6.webp" />
+                    <div class="play-btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <h5>All-is-well</h5>
+                    <p>3idiots</p>
+                  </div>
+                </div>
+                <div class="right">
+                  <div>
+                    <i class="far fa-heart"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="active-song-description">
         <!-- song image -->
         <div id="song-image">
-            <img src="image/english/english3.jpg">
+          <img src="image/english/english3.jpg" />
         </div>
         <!-- song name and author -->
         <div class="song-desc">
-            <div>
-                White Iverson
-            </div>
-            <div>
-                Post Malone
-            </div>
+          <div>White Iverson</div>
+          <div>Post Malone</div>
         </div>
-            <!-- heart icon and ban icon -->
+        <!-- heart icon and ban icon -->
         <div class="heart-and-ban-icon">
-            <span>
-                <i class="far fa-heart"></i>
-            </span>
-            <span>
-                <i class="fas fa-ban"></i>
-            </span>
+          <span>
+            <i class="far fa-heart"></i>
+          </span>
+          <span>
+            <i class="fas fa-ban"></i>
+          </span>
         </div>
-    </div>
-    <!-- these are the main player controls -->
-    <div class="player">
+      </div>
+      <!-- these are the main player controls -->
+      <div class="player">
         <div class="controls">
-            <div><i class="fas fa-random"></i></div>
-            <div><i class="fas fa-step-backward"></i></div>
-            <div><i class="fas fa-pause-circle"></i></div>
-            <div><i class="fas fa-step-forward"></i></div>
-            <div><i class="fas fa-redo"></i></div>
+          <div><i class="fas fa-random"></i></div>
+          <div><i class="fas fa-step-backward"></i></div>
+          <div><i class="fas fa-pause-circle"></i></div>
+          <div><i class="fas fa-step-forward"></i></div>
+          <div><i class="fas fa-redo"></i></div>
         </div>
         <!-- this is the slider -->
         <div id="slider">
-            <!-- current time -->
-            <div class="time">
-                1:39
-            </div>
-            <div class="slidecontainer">
-                <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
-            </div>
-            <!-- total time -->
-            <div class="time">
-                4:44
-            </div>
+          <!-- current time -->
+          <div class="time">1:39</div>
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="0"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+          <!-- total time -->
+          <div class="time">4:44</div>
         </div>
-    </div>
-    <!-- other icons including the volume slider and all -->
-    <div class="extras">
+      </div>
+      <!-- other icons including the volume slider and all -->
+      <div class="extras">
         <div>
-            <i class="fas fa-list-ul"></i>
-        </div>
-        <div>
-            <i class="fas fa-laptop"></i>
-        </div>
-        <div>
-            <i class="fas fa-volume-up"></i>
-        </div>
-        <div class="slidecontainer" style="width:30%;">
-            <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+          <i class="fas fa-list-ul"></i>
         </div>
         <div>
-            <i class="fas fa-expand-alt"></i>
+          <i class="fas fa-laptop"></i>
         </div>
-    </div>
- </footer>
-    
-</body>
+        <div>
+          <i class="fas fa-volume-up"></i>
+        </div>
+        <div class="slidecontainer" style="width: 30%">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            class="slider"
+            id="myRange"
+            style="margin-top: 0px"
+          />
+        </div>
+        <div>
+          <i class="fas fa-expand-alt"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
